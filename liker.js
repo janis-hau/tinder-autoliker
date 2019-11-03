@@ -5,10 +5,10 @@
  * have fun
  */
 
-var $likeBTN = $('.recsGamepad__button--like'),
+var $likeBTN = $('.recsGamepad__button--like, [aria-label="Like"]'),
     count    = 0,
     times    = 9999,
-	duration = 750;
+	  duration = 750;
 
 function msToTime(s) {
 
@@ -18,12 +18,12 @@ function msToTime(s) {
     return ('00' + n).slice(-z);
   }
 
-  var ms = s % 1000;
-  s = (s - ms) / 1000;
+  var ms   = s % 1000;
+      s    = (s - ms) / 1000;
   var secs = s % 60;
-  s = (s - secs) / 60;
+         s = (s - secs) / 60;
   var mins = s % 60;
-  var hrs = (s - mins) / 60;
+  var hrs  = (s - mins) / 60;
 
   return pad(hrs) + ':' + pad(mins) + ':' + pad(secs) + '.' + pad(ms, 3);
 }
