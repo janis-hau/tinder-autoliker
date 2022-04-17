@@ -5,7 +5,7 @@
  * have fun
  */
 
-var $likeBTN = $('.recsGamepad__button--like, [aria-label="Like"]'),
+var $likeBTN = document.querySelector('[data-testid="gamepadLike"]'),
     count    = 0,
     times    = 9999,
 	  duration = 750;
