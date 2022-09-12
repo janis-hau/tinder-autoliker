@@ -5,7 +5,7 @@
  * have fun
  */
 
-var $likeBTN = document.querySelector('[data-testid="gamepadLike"]'),
+var $likeBTN = document.querySelector('.recsCardboard__cards > div:nth-child(4) > div > div:nth-child(4) button'),
     count    = 0,
     times    = 9999,
 	  duration = 750;
