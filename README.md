@@ -12,4 +12,5 @@ Copy and paste the code on the tinder matching site in the developer console.
 
 ### Options
 times = amount of the swipes
+
 duration = you can increase the setup, by your own like 750ms to e.G.: 5000ms (5 seconds) or more.
